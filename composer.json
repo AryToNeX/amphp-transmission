@@ -1,0 +1,23 @@
+{
+  "name": "arytonex/amphp-transmission",
+  "description": "Really basic Transmission JSON RPC API implementation powered by Amphp",
+  "type": "project",
+  "require": {
+    "ext-json": "*",
+    "amphp/http-client": "^4.0@dev"
+  },
+  "repositories": [],
+  "minimum-stability": "dev",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "AryToNeX",
+      "email": "me@arytonex.pw"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "AryToNeX\\Transmission\\":  "src/AryToNeX/Transmission"
+    }
+  }
+}
