@@ -8,6 +8,12 @@ Anyway...
 
 ## Usage
 
+First of all, open up a terminal where your project is and type
+
+```
+composer require arytonex/amphp-transmission
+```
+
 ```php
 
 <?php
@@ -33,5 +39,3 @@ $transmission = new \AryToNeX\Transmission\Transmission($host, $port, $endpoint)
 });
 ?>
 ```
-
-### How do I publish this to Packagist now?
